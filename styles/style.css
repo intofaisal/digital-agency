@@ -1,0 +1,290 @@
+/* Primary Styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.primary{
+    color:#f52c2d;
+}
+
+
+
+/* Navigation Style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 130px 20px 130px;
+    background-color: #d6d2d2;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav ul{
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+}
+
+
+/* Header Banner Style */
+.banner-container{
+    height: 100vh;
+    background-image: url(../asset/image/background.jpg),
+    linear-gradient( rgba(0,0,0,0.1), rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-title{
+    font-size: 90px;
+    color: white;
+}
+
+.banner-description{
+    font-size: 18px;
+    color: white;
+}
+
+.btn-square-red{
+    padding: 15px;
+    width: 160px;
+    background-color: #f52c2d;
+    color: white;
+    border: none;
+    margin-right: 20px;
+}
+
+.btn-square-white{
+    padding: 15px;
+    width: 160px;
+    background-color: #ffffff;
+    color: #f52c2d;
+    border: none;
+}
+
+.btn-container{
+    margin-top: 30px;
+}
+
+
+
+
+
+/* Services Style */
+
+.services-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../asset/image/footer-bg.png), linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 200px 190px 200px;
+}
+
+.services-text{
+    text-align: left;
+}
+
+.btn-primary{
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 15px;
+}
+
+.btn-secondary{
+    color: red;
+    background-color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 15px;
+}
+
+.section-title{
+    color: #becfd0;
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.section-description{
+    color: #becfd0;
+    font-size: 16px;
+    width: 70%;
+    margin-bottom: 15px;
+}
+
+.bio{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 15px;
+}
+
+.bio-title{
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.bio-role{
+    font-size: 11px;
+    color: #ffffff;
+}
+
+.bio-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 35px;
+}
+
+.vl{
+    border-left: 2px solid red;
+    height: 60px;
+}
+
+
+
+.services-first-row{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.services-second-row{
+    display: flex;
+    gap: 10px;
+}
+
+.service img{
+    width: 100px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+
+/* CTA Popup Style */
+
+.cta-container{
+    background-color: #f52c2d;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+    margin-top:-70px;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.call{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 30px;
+}
+
+.phone{
+    width:100px;
+}
+
+.phone-text{
+    font-size: 11px;
+    color: #ffffff;
+}
+
+.phone-number{
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.appointment-text{
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.appointment{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.vl-2{
+    border-left: 2px solid rgb(255, 255, 255);
+    height: 100px;
+}
+
+
+
+/* Blog Style */
+
+.blog-containers{
+    text-align: center;
+    background-color: #e7e7e7;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.blog-container{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.blog-box{
+    border-radius: 15px;
+    box-shadow:3px 3px 10px black;
+    width: 25%;
+    overflow: hidden;
+}
+
+.blog-box img{
+    max-width: 100%;
+}
+
+.blog-text{
+    padding: 10px 20px;
+}
+
+.blog-section-title{
+    color: #000000;
+    font-size: 45px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.blog-section-description{
+    color: #000000;
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+
+
+/* Footer Style */
