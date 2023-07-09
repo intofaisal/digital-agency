@@ -285,6 +285,69 @@ nav ul{
 }
 
 
-
-
 /* Footer Style */
+
+.footer-main-container{
+    background-image: url(../asset/image/footer-bg.png), linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.footer-logo{
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+.footer-text{
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.footer-title{
+    color: #ffffff;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.footer-description .social-links img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+
+.footer-nav{
+    color: #ffffff;
+    font-size: 16px;
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+
+.copyright-text{
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.hr-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+.centered-hr {
+    width: 70%;
+  }
+  
